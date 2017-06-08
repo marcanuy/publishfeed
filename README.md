@@ -112,6 +112,15 @@ crontab -e
 **Make sure you configure the tweeter cronjob with at least 2 minutes
 between each job so your credentials won't be suspended**
 
+# Design
+
+`feeds.yml` populates the **FeedSet** model, then for each url, new
+content is created as **RSSContent** instances and saved in
+`/databases/rss_<twitterhandler>.db` *SQLite* databases.
+
+To tweet a new post, we get the oldest unpublished page from
+**RSSContent**, publish it and change its status.
+
 # Questions
 
 Do you think there is something missing or that can be improved? Feel
