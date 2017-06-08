@@ -1,0 +1,9 @@
+simpleitrocks: #twitter handler
+  twitter:
+    consumer_key: ''
+    consumer_secret: ''
+    access_key: ''
+    access_secret: ''
+  urls:
+    - #https://simpleit.rocks/feed
+  hashtags: ''
