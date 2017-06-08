@@ -19,6 +19,8 @@ This app currently perform two tasks:
 - download RSS content from several sources listed in `feeds.yml`
 - publish its titles and links to Twitter
 
+This is an easy way to get your [blog posts automatically tweeted](https://simpleit.rocks/automatically-tweet-new-blog-posts-based-in-rss/).
+
 # Installation
 
 ## Install dependencies
