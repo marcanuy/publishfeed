@@ -115,7 +115,7 @@ between each job so your credentials won't be suspended**
 # Design
 
 `feeds.yml` populates the **FeedSet** model, then for each url, new
-content is created as **RSSContent** instances and saved in
+content is created as **RSSContent** instances (using SQLAlchemy) and saved in
 `/databases/rss_<twitterhandler>.db` *SQLite* databases.
 
 To tweet a new post, we get the oldest unpublished page from
