@@ -86,12 +86,12 @@ optional arguments:
 - `python main.py <TwitterHandler> --getfeeds`
   
   Download all the pages from the URLs defined in `urls` and save the
-   new ones. E.g.: `python main.py reddit --getfeeds`
+   new ones. E.g.: <kbd>python main.py reddit --getfeeds</kbd>
   
 - `python main.py <TwitterHandler> --tweet`
 
   Tweet the oldest unpublished page (previously downloaded with
-  `--getfeeds`). E.g.: `python main.py reddit --tweet`
+  `--getfeeds`). E.g.: <kbd>python main.py reddit --tweet</kbd>
 
 ## Cronjobs
 
