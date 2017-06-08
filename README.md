@@ -1,8 +1,7 @@
 Publish Feed
 ============
 
-A publisher of articles from RSS feeds to other platforms, currently
-to Twitter only.
+A publisher of articles from websites RSS feeds to Twitter.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
@@ -103,10 +102,10 @@ crontab -e
 
 ~~~ cronjob
 # hourly download new pages 
-0 * * * * workon publishfeed; cd publishfeed; python main.py reddit -g
+0 * * * * workon publishfeed; cd publishfeed; python main.py reddit --getfeeds
 
 # tweet every 15 minutes if there are unpublished pages
-*/15 * * * * workon publishfeed; cd publishfeed; python main.py reddit -g
+*/15 * * * * workon publishfeed; cd publishfeed; python main.py reddit --tweet
 ~~~
 
 **Make sure you configure the tweeter cronjob with at least 2 minutes
