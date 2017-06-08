@@ -38,8 +38,8 @@ Customize `feeds.yml.skel` and save it as `feeds.yml`:
 	cd publishfeed
 	cp feeds.yml.skel feeds.yml
 	
-For example, defining feeds for two different Twitter accounts
-(<twitter.com/simpleitrocks> and <twitter.com/reddit>) would
+For example, defining feeds for two different Twitter accounts,
+<twitter.com/simpleitrocks> and <twitter.com/reddit>, would
 look like:
 
 	simpleitrocks: #twitter handler
@@ -61,7 +61,7 @@ look like:
         - http://www.reddit.com/.rss
         - http://www.reddit.com/r/news/.rss
         - http://www.reddit.com/user/marcanuy/.rss
-	  hashtags: '#RedditFrontPage
+	  hashtags: '#RedditFrontPage'
 
 # Running
 
