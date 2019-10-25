@@ -6,7 +6,7 @@ idna==2.5
 munch==2.1.1
 oauthlib==2.0.2
 PyYAML==5.1
-requests==2.17.3
+requests==2.20.0
 requests-oauthlib==0.8.0
 six==1.10.0
 SQLAlchemy==1.1.10
